@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+label, p, .text{
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, red, blue);
+  font-family: 'Prompt', sans-serif;
+}
+
+.auth-inner {
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(15, 15, 26, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-inner .form-control:focus {
+  border-color: #ff0000;
+  box-shadow: none;
+}
+
+.auth-inner h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.forgot-password, .forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #000000;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #ff1616;
+}
